@@ -1,18 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Django Girls blog</title>
-</head>
-<body>
+{#{% load static %}#}
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Django Girls blog</title>#}
+{##}
+{#    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">#}
+{#    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">#}
+{##}
+{#    <link rel="stylesheet" href="{% static "css/blog.css" %}">#}
+{##}
+{#</head>#}
+{#<body>#}
+{#    <header class="page-header">#}
+{#        <div class="container">#}
+{#            <h1><a href="/">Django Girls Blog</a></h1>#}
+{#        </div>#}
+{#    </header>#}
+{##}
+{#<main>#}
+{#    <div class="row">#}
+{#        <div class="col">#}
+{% extends "blog/base.html" %}
 
-
-    {% for post in posts %}
-        <article>
-            <time>published: {{ post.published_date }}</time>
-            <h2><a href="">{{ post.title }}</a></h2>
-            <p>{{ post.text|linebreaksbr }}</p>
-    {% endfor %}
+{% block content %}
+            {% for post in posts %}
+                  <article class="post">
+                      <time class="date">published: {{ post.published_date }}</time>
+                      <h2><a href="{% url "post_detail" pk=post.pk %}">{{ post.title }}</a></h2>
+                      <p>{{ post.text|linebreaksbr }}</p>
+                  </article>
+            {% endfor %}
+{% endblock %}
+{#        </div>#}
+{#    </div>#}
+{#</main>#}
 {#    <header><a href="/">Django Girls Blog</a></header>#}
 
 {#    <article>#}
@@ -31,6 +53,6 @@
 {#        ut fermentum massa justo sit amet risus.</p>#}
 {#    </article>#}
 
-
-</body>
-</html>
+{##}
+{#</body>#}
+{#</html>#}
