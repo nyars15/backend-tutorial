@@ -5,23 +5,31 @@
     <title>Django Girls blog</title>
 </head>
 <body>
-    <header><a href="/">Django Girls Blog</a></header>
 
-    <article>
-        <time>published: 08.07.2021</time>
-        <h2>My first post</h2>
-        <p>Aenean eu leo. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-        ut fermentum massa justo sit amet risus.</p>
-    </article>
 
-    <article>
-        <time>published: 08.07.2021</time>
-        <h2>My second post</h2>
-        <p> Aenean eu leo. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-        ut fermentum massa justo sit amet risus.</p>
-    </article>
+    {% for post in posts %}
+        <article>
+            <time>published: {{ post.published_date }}</time>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
+    {% endfor %}
+{#    <header><a href="/">Django Girls Blog</a></header>#}
+
+{#    <article>#}
+{#        <time>published: 08.07.2021</time>#}
+{#        <h2>My first post</h2>#}
+{#        <p>Aenean eu leo. Pellentesque ornare sem lacinia quam venenatis vestibulum.#}
+{#        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,#}
+{#        ut fermentum massa justo sit amet risus.</p>#}
+{#    </article>#}
+{##}
+{#    <article>#}
+{#        <time>published: 08.07.2021</time>#}
+{#        <h2>My second post</h2>#}
+{#        <p> Aenean eu leo. Pellentesque ornare sem lacinia quam venenatis vestibulum.#}
+{#        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,#}
+{#        ut fermentum massa justo sit amet risus.</p>#}
+{#    </article>#}
 
 
 </body>

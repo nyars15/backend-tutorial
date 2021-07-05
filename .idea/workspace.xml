@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c3c8f9b-3b58-4c96-a853-8d878de6b049" name="Default Changelist" comment="first commit" />
+    <list default="true" id="1c3c8f9b-3b58-4c96-a853-8d878de6b049" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625204661295</updated>
       <workItem from="1625281566926" duration="588000" />
-      <workItem from="1625431033383" duration="4644000" />
+      <workItem from="1625431033383" duration="6183000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1625448998151</created>
