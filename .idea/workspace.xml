@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c3c8f9b-3b58-4c96-a853-8d878de6b049" name="Default Changelist" comment="commit after extends, new detail.html, view and url">
+    <list default="true" id="1c3c8f9b-3b58-4c96-a853-8d878de6b049" name="Default Changelist" comment="commit after extends, pythonanywhere broke">
+      <change afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -43,6 +45,11 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\Desktop\dev\djangoProject\blog\templates\blog" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="djangoProject" type="Python.DjangoServer" factoryName="Django server">
@@ -78,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1625204661295</updated>
       <workItem from="1625281566926" duration="588000" />
-      <workItem from="1625431033383" duration="13843000" />
+      <workItem from="1625431033383" duration="17701000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1625448998151</created>
@@ -101,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625459352950</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit after extends, pythonanywhere broke">
+      <created>1625531883865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625531883865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +136,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="commit after publish" />
     <MESSAGE value="commit after extends, new detail.html, view and url" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit after extends, new detail.html, view and url" />
+    <MESSAGE value="commit after extends, pythonanywhere broke" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit after extends, pythonanywhere broke" />
   </component>
 </project>
